@@ -1,0 +1,21 @@
+{
+  "name": "nextjs-mdx-prism",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:christoferolaison/nextjs-mdx-prism.git",
+  "author": "Christofer Olaison <christofer.olaison@mentimeter.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@mdx-js/loader": "^1.5.1",
+    "@mdx-js/react": "^1.5.1",
+    "@next/mdx": "^9.1.2",
+    "next": "^9.1.2",
+    "prism-react-renderer": "^1.0.2",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build"
+  }
+}
